@@ -1,0 +1,27 @@
+@media (min-width: 768px) and (max-width: 1199px)
+{
+	.nav__link_last
+	{
+		font-size: 12px;
+	}
+	.nav__link
+	{
+		font-size: 12px;
+	}
+	.logo
+	{
+		display: flex;
+		justify-content: center;
+	}
+}
+@media (max-width: 768px)
+{
+	.head_text_1
+	{
+		font-size:18px;
+	}
+	.head_text_2
+	{
+		font-size:15px;
+	}
+}

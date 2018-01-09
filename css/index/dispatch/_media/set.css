@@ -1,0 +1,23 @@
+@media (min-width: 470px) and (max-width: 578px) {
+	
+	.dispatch__search_text
+	{
+		width: 30% !important;
+	}
+}
+@media (max-width:470px) {
+
+	.dispatch__search_text
+	{
+		margin-bottom: 20px;
+		border: 1px solid #84B5D3 !important;
+	}
+	
+	.dispatch__button
+	{
+	
+	border: 1px Solid #84B5D3 !important;
+	background-color: #84B5D3 !important;
+	color: White !important;
+	}
+}

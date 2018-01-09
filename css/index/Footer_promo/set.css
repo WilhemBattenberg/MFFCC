@@ -1,0 +1,34 @@
+.footer-picture
+{
+	background-size: auto;
+	position: relative;
+    width:  -webkit-fill-available;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-start;
+	padding: 0px;
+	height: 70%;
+}
+.footer-overlay
+{	
+	font-family:"Arial Narrow";
+	color: Black;
+	position: absolute;
+	margin-left: 8px;
+	margin-right: 8px;
+	left: 0px;
+	
+	
+}
+.footer-overlay
+{
+	border-radius: 0px;
+	display: block;
+	margin-top: 30px;
+}
+.footer-overlay
+{
+	display: block;
+	margin-left: 30px;
+	font-size: 20px;
+}

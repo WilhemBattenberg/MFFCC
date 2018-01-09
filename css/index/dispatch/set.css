@@ -1,0 +1,47 @@
+@import "_media/set.css";
+.text_dispatch
+{
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+.dispatch
+{
+	margin-top: 30px;
+	text-align: center;
+}
+.dispatch__button
+{
+	margin-left: -10px;
+}
+.dispatch_search
+{
+	margin-top: 20px;
+	
+}
+.dispatch__search_text, .dispatch__button
+{
+	background-color: white;
+	border: 5px Solid #84B5D3;
+}
+.dispatch__button
+{
+	border-left: 1px Solid #84B5D3;
+	height: 41px;
+	color: #71aaca;
+	font-size: 12px;
+
+}
+.dispatch__search_text
+{
+	
+	height: 40px;
+	width: 80%;
+	font-size: 12px;
+	color: #97958f;
+}
+.dispatch__pad_text
+{
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 60px;
+}

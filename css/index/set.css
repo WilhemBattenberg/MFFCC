@@ -1,0 +1,13 @@
+@import "navigation/set.css";
+@import "promo/set.css";
+@import "news/set.css";
+@import "dispatch/set.css";
+@import "footer_promo/set.css";
+.-color
+{
+	background-color: #Ededea;
+}
+.-color_text
+{
+	color: #97958f;
+}

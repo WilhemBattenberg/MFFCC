@@ -1,0 +1,64 @@
+.header
+{
+	background-image: url("picture/header.png");
+}
+
+.navbar-toggle
+{
+	background-color: Black;
+	margin-top: -160px;
+}
+.icon-bar
+{
+	background-color: white;
+}
+.head_text_1
+{
+	font-size: 23px;
+	margin: 1px;
+	color: White;
+}
+.head_text_2
+{
+	font-size: 20px;
+	color: White;
+}
+.search
+{
+
+	float: inherit;
+	margin-top: 32px;
+}
+.search__input
+{
+	color: White;
+	width: 290px;
+	background-color: transparent;
+	margin-right: -10px;
+	border: 0px;
+}
+.search
+{
+	display: block;
+	border:2px Solid White;
+}
+.header
+{
+	background-color: blue;
+}
+.Version
+{
+	margin-top: 80px;
+}
+.menu_Versia
+{
+	color: White;
+	text-decoration: underline !important;
+}
+.button__search
+{
+	background-color: transparent;
+	border: 0px;
+	border-left: 1px solid White;
+	
+}
