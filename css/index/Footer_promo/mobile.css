@@ -1,0 +1,43 @@
+.list_footer__mobile
+{
+	text-align: center;
+}
+.mobile_list
+{
+	margin-top: 20px;
+}
+.mobile_footer_menu
+{
+	color: #Fffefe;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.mobile_footer_menu:hover
+{
+	font-size: 22px;
+	color: #Fffefe;
+}
+.mobile_image
+{
+	margin-top: 15px;
+	text-align: center;
+}
+.text_image_mobile
+{
+	color: white;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.img-responsive_mobile
+	{
+		height: 500px;
+	}
+.addres_mobile
+{
+		margin-top: 20px;
+}
+.logo_mobile
+{
+	display: flex;
+	justify-content: center;
+}

@@ -1,3 +1,4 @@
+@import "mobile.css";
 .footer-picture
 {
 	position: relative;
@@ -103,6 +104,10 @@
 			margin-left: 0px;
 
 		}
+		.logo
+		{
+			margin-left: 20px;
+		}
 	}
 @media (max-width: 420px)
 	{
@@ -133,8 +138,13 @@
 		{
 			display: flex;
 			justify-content: center;
+			    margin-left: 40px;
 		}
 		.number
+		{
+			text-align: center;
+		}
+		.addres
 		{
 			text-align: center;
 		}

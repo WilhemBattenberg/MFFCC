@@ -2,11 +2,11 @@
 {
 	.nav__link_last
 	{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.nav__link
 	{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.logo
 	{
@@ -45,7 +45,7 @@
 		.navbar-toggle
 	{
 		background-color: Black;
-		margin-top: -60px;
+		margin-top: -90px;
 	}
 	
 }
