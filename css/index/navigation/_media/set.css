@@ -24,4 +24,42 @@
 	{
 		font-size:15px;
 	}
+	.drop_menu
+	{
+		color: White !important;
+	}
+	
+}
+
+@media (max-width: 768px) and (min-width: 570px)
+{
+	.navbar-toggle
+	{
+		background-color: Black;
+		margin-top: -100px;
+	}
+	
+}
+@media (max-width: 570px) and (min-width: 460px)
+{
+		.navbar-toggle
+	{
+		background-color: Black;
+		margin-top: -60px;
+	}
+	
+}
+@media (max-width: 705px) and (min-width: 402px)
+{
+	.navbar__text
+	{
+		margin-top: 15px;
+	}
+}
+@media (min-width: 706px) and (max-width: 750px)
+{
+	.navbar__text
+	{
+		margin-top: 45px;
+	}
 }

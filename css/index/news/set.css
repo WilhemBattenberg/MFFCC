@@ -4,6 +4,11 @@
 	color: #585858;
 	font-family: 'Roboto', sans-serif;
 }
+.news__tex
+{
+	text-align: center;
+	text-decoration: underline;
+}
 .news__block
 {
 	margin-left: 40px;
@@ -46,14 +51,14 @@
 {
 	.img__news
 	{
-		width: 180%;
+		width: 100%;
 	}
 }
 @media (max-width: 768px)
 {
 	.img__news
 	{
-		width: 80%;
+		width: 60%;
 	}
 	.news__date
 	{	
@@ -64,6 +69,8 @@
 	.news__tex
 	{
 		font-size: 15px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 	.news__block
 	{

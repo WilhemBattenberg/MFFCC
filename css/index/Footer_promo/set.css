@@ -1,13 +1,11 @@
 .footer-picture
 {
-	background-size: auto;
 	position: relative;
-    width:  -webkit-fill-available;
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: flex-start;
-	padding: 0px;
-	height: 70%;
+	justify-content: center;
+	align-items:normal;
 }
 .footer-overlay
 {	
@@ -17,6 +15,7 @@
 	margin-left: 8px;
 	margin-right: 8px;
 	left: 0px;
+
 	
 	
 }
@@ -29,6 +28,114 @@
 .footer-overlay
 {
 	display: block;
-	margin-left: 30px;
+	margin:0px;
 	font-size: 20px;
+		margin-top: 20px;
 }
+.footer_block_1
+{
+	
+	margin-left: 40px;
+}
+.footer_menu
+{
+	font-size: 16px;
+	color: White;
+	text-decoration: underline;
+	margin-right: 20px;
+}
+.footer_menu:hover
+{
+	color: white;
+}
+.footer__image
+{
+	background: transparent;
+}
+.footer__menu_pad
+{
+	margin-top: 10px;
+	margin-left: 35px;
+}
+.-pad_li
+{
+	
+	color: White;
+	font-size: 15px;
+}
+.-pad_li:hover
+{
+	color: White;
+	text-decoration: none;
+}
+.mail__footer
+{
+	text-align: right;
+}
+.number
+{
+	font-size: 16px;
+	color: White;
+	margin-bottom: 20px;
+}
+.addres
+{
+	font-size: 12px;
+	color: #Bdccdd;
+}
+@media (max-width: 1201px)
+	{
+		.-pad_li
+		{
+			font-size: 12px;
+		}
+		.-hid
+		{
+			margin-left: 30px;
+			margin-top: 10px;
+		}
+		.img-responsive
+		{
+			height: 200px;
+		}
+		.footer__menu_pad
+		{
+			margin-left: 0px;
+
+		}
+	}
+@media (max-width: 420px)
+	{
+		.img-responsive
+		{
+			height: 380px !important;
+		}
+		.footer__menu_pad
+		{
+			 display: flex;
+   			 justify-content: center;
+   			 flex-direction: column;
+				margin-left: 80px;
+		}
+		.addres
+		{
+			text-align: center;
+		}
+
+	}
+@media (max-width: 768px)
+	{
+		.img-responsive
+		{
+			height: 300px;
+		}
+		.logo
+		{
+			display: flex;
+			justify-content: center;
+		}
+		.number
+		{
+			text-align: center;
+		}
+	}

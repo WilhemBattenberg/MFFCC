@@ -24,11 +24,11 @@
         </div>
       </div>
 
-      <div class="col-lg-6 col-xs-6">
+      <div class="col-lg-6 col-xs-6 navbar__text">
         <p> <h1 class="head_text_1">минстрой россии</h1>
         	<h1 class="head_text_1">ФАУ &laquo;ФЦЦС&raquo; </h1>
-        	<div class="head_text_2"> Федеральное автономное учереждение</div>
-        	<div class="head_text_2">
+        	<div class="head_text_2  hidden-xs"> Федеральное автономное учереждение</div>
+        	<div class="head_text_2  hidden-xs">
         	&laquo;Федеральный центр ценнообразования в строительстве и промышленности
         	строительных материалов&raquo;
       		</div>
@@ -142,7 +142,7 @@
 				<div class="row">
 					<!-- BLOCK -->
 					
-					<div class="col-lg-3 col-md-3 col-sm-2  news__block">
+					<div class="col-lg-3 col-md-3 col-sm-4  news__block">
 						<h3 class="news__date">Дата: 13 января 2016 года.</h3>
 						<img src="picture/news/01.png" class="img__news">
 						<div class="news__tex">
@@ -155,7 +155,7 @@
 		
 					<!-- BLOCK -->
 					
-					<div class="col-lg-3 col-md-3 col-sm-2  news__block">
+					<div class="col-lg-3 col-md-3 col-sm-4  news__block">
 						<h3 class="news__date">Дата: 30 Декабря 2015 г.</h3>
 						<img src="picture/news/03.png" class="img__news">
 						<div class="news__tex">
@@ -166,7 +166,7 @@
 					
 					<!-- BLOCK -->
 					
-					<div class="col-lg-3 col-md-3 col-sm-2  news__block">
+					<div class="col-lg-3 col-md-3 col-sm-4  news__block">
 						<h3 class="news__date">Дата: 13 января 2016 г.</h3>
 						<img src="picture/news/04.png" class="img__news">
 						<div class="news__tex">
@@ -181,7 +181,7 @@
 				<div class="col-lg-12">
 					<!-- BLOCK -->
 					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-2 news__block">
+						<div class="col-lg-3 col-md-3 col-sm-4 news__block">
 							<h3 class="news__date">Дата: 13 Января 2016 г.</h3>
 							<img src="picture/news/02.png" class="img__news">
 							<div class="news__tex">
@@ -194,7 +194,7 @@
 						
 						<!-- BLOCK -->
 			
-						<div class="col-lg-3 col-md-3 col-sm-2 news__block">
+						<div class="col-lg-3 col-md-3 col-sm-4 news__block">
 							<h3 class="news__date">Дата: 30 Декабря 2015 г.</h3>
 							<img src="picture/news/05.png" class="img__news">
 							<div class="news__tex">
@@ -207,7 +207,7 @@
 			
 						<!-- BLOCK -->
 			
-						<div class="col-lg-3 col-md-3 col-sm-2 news__block">
+						<div class="col-lg-3 col-md-3 col-sm-4 news__block">
 							<h3 class="news__date">Дата: 13 января 2016 г.</h3>
 							<img src="picture/news/06.png" class="img__news">
 							<div class="news__tex">
@@ -220,7 +220,7 @@
 				</div>
 		</div>
 		<div class="news__all-button">
-			<button class="all_button"><h2 class="text__button">СМОТРЕТЬ ВСЕ НОВОСТИ</h2></button>
+			<button type="button" class="btn btn-default all_button"><h2 class="text__button">СМОТРЕТЬ ВСЕ НОВОСТИ</h2></button>
 		</div>
 	</div>
 
@@ -230,7 +230,7 @@
 				<div>
 			 		<span  class="dispatch_search">
 			 		<input class="dispatch__search_text" type="text" value="Введите свой email">
-			 		<button class="dispatch__button">ПОДПИСАТЬСЯ</button>
+			 		<button class="btn btn-default dispatch__button">ПОДПИСАТЬСЯ</button>
 				</span>
 				</div>
 				<div class="dispatch__pad_text">
@@ -239,27 +239,66 @@
 		</div>
 	</div>
 
-	<footer class="footer__promo">
-		<div class="row">
-			<div class="col-xs-12 footer-picture">
+	<footer class="footer__promo ">
+			<div class="footer-picture">
 				<img src="picture\footer.png" class="img-responsive" width="100%" height="60%">
-				<div class="footer-overlay">
+				<div class="footer-overlay col-lg-12 col-xs-12">
 					<div class="footer_ver">
-						<img src="picture/footer/1.png">
-						<div>
-
-							<span class="footer__text"> 
-								<a href="#"> О центре</a>
-								<a href="#"> Документы</a>
-								<a href="#"> Вопросы ответы</a>
-								<a href="#"> О центре</a>
-							 </span>
-						
-						</div>
+						<div class="row">
+							<div class="col-sm-1 logo">	
+								<img src="picture/footer/1.png" class="footer__image">
+							</div>
+							<div class=" col-sm-8">
+								<div class="footer_block_1 hidden-xs">
+		
+									<span class="footer__text"> 
+										<a href="#" class="footer_menu"> О центре</a>
+										<a href="#" class="footer_menu"> Документы</a>
+										<a href="#" class="footer_menu"> Вопросы ответы</a>
+										<a href="#" class="footer_menu"> О центре</a>
+									 </span>
+								</div>
+								<ul class="list-inline footer__menu_pad">
+ 									 <li class="hidden-md hidden-xs hidden-sm">
+ 									 	<a href="#" class="-pad_li">
+											<img src="picture/footer/twitter.png">
+										</a>
+ 									 </li>
+ 									 <li class="hidden-md hidden-xs hidden-sm -hid">
+ 									 	<a href="#" class="-pad_li">
+											<img src="picture/footer/facebook.png">
+										</a>
+ 									 </li>
+ 									 <li>
+ 									 	<a href="#" class="-pad_li -hid">
+											<img src="picture/footer/logos.png">
+											 МИНСТРОЙ РОССИИ
+										</a>
+ 									 </li>
+ 									  <li>
+ 									 	<a href="#" class="-pad_li -hid hidden-sm visible-xs">
+											<img src="picture/footer/logo.png">
+											ФАУ «Главгосэкспертиза России»
+										</a>
+ 									 </li>
+ 									 <li>
+ 									 	<a href="#" class="-pad_li -hid">
+											<img src="picture/footer/--.png">
+											ФАУ ФЦС
+										</a>
+ 									 </li>
+ 								</ul>
+ 							</div>
+ 							<div class="col-sm-3  mail__footer">
+								<p class="number"><b>+7 (495) 419-94-00</b></p>
+								<p class="number"><b>post@faufccs.ru</b></p>
+								<p class="addres">107139, Москва, Орликов переулок, д. 3с1</p>
+ 							</div>
+ 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 	</footer>
+
 </body>
 </html>

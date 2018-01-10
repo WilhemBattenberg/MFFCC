@@ -2,11 +2,19 @@
 {
 	background-image: url("picture/header.png");
 }
-
+.nav__link:hover, .nav__link_last:hover
+{
+	font-size: 16px;
+}
+.drop_menu:hover
+{
+	color: Green;
+	background: transparent;
+}
 .navbar-toggle
 {
 	background-color: Black;
-	margin-top: -160px;
+	margin-top: -55px;
 }
 .icon-bar
 {
