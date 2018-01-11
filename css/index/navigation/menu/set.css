@@ -15,3 +15,11 @@
 {
 	color:White;
 }
+.dropdown-menu
+{
+	margin-top: -3px !important;
+}
+.menu_primary_search
+{
+	float: right;
+}

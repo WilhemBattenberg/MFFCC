@@ -1,0 +1,23 @@
+@media (max-width: 1900px)
+{
+	.news__block
+	{
+	margin-left: 70px;
+	margin-right: 0px;
+	}
+}
+@media (max-width: 1058px)
+{
+	.img__news
+	{
+		width: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+	.news__date
+	{
+		font-size: 14px !important;
+	}
+	
+}

@@ -1,3 +1,5 @@
+@import "_media/set.css";
+@import "_button/set.css";
 .news__date
 {
 	font-size: 14px;
@@ -22,38 +24,7 @@
 {
 	width: 80%;
 }
-.news__all-button
-{
-	display: flex;
-	justify-content: center;
-	margin-top: 40px;
-}
-.all_button
-{
-	background-color: transparent;
-}
-.text__button
-{
-	color: #999999;
-	font-size: 14px;
-	border-color: #999999;
-	
-}
-@media (max-width: 1900px)
-{
-	.news__block
-	{
-	margin-left: 70px;
-	margin-right: 0px;
-	}
-}
-@media (max-width: 1058px)
-{
-	.img__news
-	{
-		width: 100%;
-	}
-}
+
 @media (max-width: 768px)
 {
 	.img__news
@@ -77,12 +48,5 @@
 		text-align: center;
 		margin-left: 0px;
 	}
-}
-@media (max-width: 500px) {
-	.news__date
-	{
-		font-size: 15px;
-	}
-	
 }
 

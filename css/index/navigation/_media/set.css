@@ -94,7 +94,11 @@
 		margin-top: 10px;
 	}
 }
-.dropdown-menu
-{
-	margin-top: -3px !important;
+
+@media (max-width: 986px) and (min-width: 768px) {
+	.navbar__text
+	{
+		text-align: center;
+		margin-top: 50px;
+	}
 }
