@@ -22,13 +22,14 @@
 }
 .head_text_1
 {
-	font-size: 23px;
+	font-size: 35px;
 	margin: 1px;
 	color: White;
 }
 .head_text_2
 {
 	font-size: 20px;
+	font-size: 16px;
 	color: White;
 }
 .search
@@ -40,7 +41,7 @@
 .search__input
 {
 	color: White;
-	width: 290px;
+	width: 280px;
 	background-color: transparent;
 	margin-right: -10px;
 	border: 0px;
@@ -57,7 +58,7 @@
 .Version
 {
 	margin-top: 80px;
-	margin-left: 350px;
+	margin-left: 150px;
 }
 .menu_Versia
 {
@@ -68,6 +69,55 @@
 {
 	background-color: transparent;
 	border: 0px;
-	border-left: 1px solid White;
+	position: relative;
+}
+.button__search::before
+{
+	height: 70%;
+    width: 1px;
+	position: absolute;
+	top: 50%;
+	position: absolute;
+	transform: translateY(-50%);
+	left: 0;
+	content: ' ';
+	background: White;
+}
+.button__search:hover
+{
+	background: White;
+	color: #71aaca;
+}
+@media (max-width:1694px) and (min-width: 994px) {
+	.Version
+	{
+		margin-left: 150px;
+	}
+	.navbar__text
+	{
+		margin-top: 20px;
+	}
+
 	
+	}
+@media (min-width: 1694px)
+{
+		.Version
+	{
+		margin-left: 350px;
+	}
+	.head_text_2
+		{
+	font-size: 20px !important;
+	color: White;
+		}
+
+	
+}
+@media (min-width: 1216px)
+{
+	.menu_primary_search
+	{
+		margin-top: 30px;
+	}
 }

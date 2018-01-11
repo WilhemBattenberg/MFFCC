@@ -15,8 +15,21 @@
 {
 	min-width: 300px;
 	font-family: 'Roboto', sans-serif;
+	max-width: 1980px;
 }
 .-symbol
 {
 	margin-right: 10px;
+}
+.-left
+{
+	margin-left: 300px;
+    font-size: 13px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.-marg 
+{
+	margin-bottom: 5px !important;
 }
