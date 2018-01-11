@@ -4,7 +4,7 @@
 }
 .nav__link:hover, .nav__link_last:hover
 {
-	font-size: 16px;
+	font-size: 12px;
 }
 .drop_menu:hover
 {
@@ -124,4 +124,10 @@
 	{
 		margin-top: 30px;
 	}
+}
+.menu_Versia:hover
+{
+	text-decoration: none;
+	color: White;
+	font-size: 16px;
 }

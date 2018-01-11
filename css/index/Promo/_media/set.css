@@ -9,6 +9,7 @@
 	.promo_tex
 	{
 		margin-bottom: 5px;
+
 	}
 	.promo__hred_1
 	{
@@ -18,6 +19,11 @@
 	{
 		font-size: 12px;
 	}
+	.promo__hred_1
+	{
+		margin: 0px;
+	}
+
 }
 
 @media (max-width: 340px)

@@ -25,7 +25,7 @@
 	width: 80%;
 }
 
-@media (max-width: 768px)
+@media (max-width: 767px)
 {
 	.img__news
 	{
@@ -40,8 +40,8 @@
 	.news__tex
 	{
 		font-size: 15px;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: 60px;
+		margin-right: 60px;
 	}
 	.news__block
 	{

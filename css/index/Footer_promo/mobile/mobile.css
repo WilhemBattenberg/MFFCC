@@ -30,7 +30,7 @@
 }
 .img-responsive_mobile
 	{
-		height: 500px;
+		height: 530px;
 		object-fit: cover;
 	}
 .addres_mobile
@@ -45,4 +45,8 @@
 .mobile_symbol_left
 {
 	margin-left: -8px;
+}
+.mobile__list_menu
+{
+	margin-bottom: 10px;
 }
