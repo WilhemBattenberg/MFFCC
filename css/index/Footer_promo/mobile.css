@@ -31,6 +31,7 @@
 .img-responsive_mobile
 	{
 		height: 500px;
+		object-fit: cover;
 	}
 .addres_mobile
 {
@@ -40,4 +41,8 @@
 {
 	display: flex;
 	justify-content: center;
+}
+.mobile_symbol_left
+{
+	margin-left: -8px;
 }

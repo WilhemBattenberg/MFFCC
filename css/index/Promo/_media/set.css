@@ -6,6 +6,10 @@
 		bottom: 5px !important;
 		
 	}
+	.promo_tex
+	{
+		margin-bottom: 5px;
+	}
 	.promo__hred_1
 	{
 		font-size: 15px;
@@ -15,6 +19,7 @@
 		font-size: 12px;
 	}
 }
+
 @media (max-width: 340px)
 {
 	.promo-overlay

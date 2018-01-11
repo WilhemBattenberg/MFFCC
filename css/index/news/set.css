@@ -78,4 +78,11 @@
 		margin-left: 0px;
 	}
 }
+@media (max-width: 500px) {
+	.news__date
+	{
+		font-size: 15px;
+	}
+	
+}
 
