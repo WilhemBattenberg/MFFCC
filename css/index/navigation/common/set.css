@@ -1,11 +1,9 @@
 .header
 {
 	background-image: url("picture/header.png");
+	font-family: 'Roboto', sans-serif !important;
 }
-.nav__link:hover, .nav__link_last:hover
-{
-	font-size: 12px;
-}
+
 .drop_menu:hover
 {
 	color: Green;
@@ -25,16 +23,18 @@
 	font-size: 35px;
 	margin: 1px;
 	color: White;
+	font-family: 'Roboto', sans-serif !important;
 }
 .head_text_2
 {
+	font-family: 'Roboto', sans-serif !important;
 	font-size: 20px;
 	font-size: 16px;
 	color: White;
 }
 .search
 {
-
+	font-family: 'Roboto', sans-serif !important;
 	float: inherit;
 	margin-top: 32px;
 }
@@ -45,6 +45,7 @@
 	background-color: transparent;
 	margin-right: -10px;
 	border: 0px;
+	font-family: 'Roboto', sans-serif !important;
 }
 .search__input::placeholder
 {
@@ -54,26 +55,32 @@
 {
 	display: block;
 	border:2px Solid White;
+	font-family: 'Roboto', sans-serif !important;
 }
 .header
 {
 	background-color: blue;
+	font-family: 'Roboto', sans-serif !important;
 }
 .Version
 {
 	margin-top: 80px;
 	margin-left: 150px;
+	font-family: 'Roboto', sans-serif !important;
 }
 .menu_Versia
 {
 	color: White;
 	text-decoration: underline !important;
+	float: right;	
+	font-family: 'Roboto', sans-serif !important;
 }
 .button__search
 {
 	background-color: transparent;
 	border: 0px;
 	position: relative;
+	font-family: 'Roboto', sans-serif !important;
 }
 .button__search::before
 {
@@ -86,20 +93,24 @@
 	left: 0;
 	content: ' ';
 	background: White;
+	font-family: 'Roboto', sans-serif !important;
 }
 .button__search:hover
 {
 	background: White;
 	color: #71aaca;
+	font-family: 'Roboto', sans-serif !important;
 }
 @media (max-width:1694px) and (min-width: 994px) {
 	.Version
 	{
 		margin-left: 150px;
+		font-family: 'Roboto', sans-serif !important;
 	}
 	.navbar__text
 	{
 		margin-top: 20px;
+		font-family: 'Roboto', sans-serif !important;
 	}
 
 	
@@ -129,5 +140,5 @@
 {
 	text-decoration: none;
 	color: White;
-	font-size: 16px;
+	
 }

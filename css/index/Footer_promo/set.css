@@ -11,13 +11,13 @@
 }
 .footer-overlay
 {	
-	font-family:"Arial Narrow";
+	font-family: 'Roboto', sans-serif !important;
 	color: Black;
 	position: absolute;
 	margin-left: 8px;
 	margin-right: 8px;
 	left: 0px;
-
+	
 	
 	
 }
@@ -36,11 +36,12 @@
 }
 .footer_block_1
 {
-	
+	font-family: 'Roboto', sans-serif !important;
 	margin-left: 40px;
 }
 .footer_menu
 {
+	font-family: 'Roboto', sans-serif !important;
 	font-size: 16px;
 	color: White;
 	text-decoration: underline;
@@ -56,6 +57,7 @@
 }
 .footer__menu_pad
 {
+	font-family: 'Roboto', sans-serif !important;
 	margin-top: 10px;
 	margin-left: 35px;
 }
@@ -71,21 +73,25 @@
 }
 .-pad_li:hover
 {
+	font-family: 'Roboto', sans-serif !important;
 	color: White;
 	text-decoration: none;
 }
 .mail__footer
 {
+	font-family: 'Roboto', sans-serif !important;
 	text-align: right;
 }
 .number
 {
+	font-family: 'Roboto', sans-serif !important;
 	font-size: 16px;
 	color: White;
 	margin-bottom: 20px;
 }
 .addres
 {
+	font-family: 'Roboto', sans-serif !important;
 	font-size: 12px;
 	color: #Bdccdd;
 }

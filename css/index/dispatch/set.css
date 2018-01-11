@@ -8,13 +8,17 @@
 {
 	margin-top: 30px;
 	text-align: center;
+	
 }
 .dispatch__button
 {
+	color: #84B5D3;
+	font-weight: 300;
 	margin-left: -135px;
 	background: transparent;
 	border: none;
 	position: relative;
+	font-family: 'Roboto', sans-serif !important;
 }
 .dispatch_search
 {
@@ -24,7 +28,8 @@
 .dispatch__search_text
 {
 	background-color: white;
-	border: 5px Solid #84B5D3;
+	border: 3px Solid #84B5D3;
+		font-family: 'Roboto', sans-serif !important;
 	
 }
 
@@ -47,10 +52,26 @@
 	width: 80%;
 	font-size: 12px;
 	color: #97958f;
+		font-family: 'Roboto', sans-serif !important;
 }
 .dispatch__pad_text
 {
 	font-size: 12px;
 	margin-top: 15px;
 	margin-bottom: 60px;
+}
+.dispatch__search_text
+{
+	padding-left: 5px;
+	font-family: 'Roboto', sans-serif !important;
+}
+.text_dispatch
+{
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 20px;
+	font-weight: 600;
+}
+.dispatch
+{
+	margin-top: 40px;
 }

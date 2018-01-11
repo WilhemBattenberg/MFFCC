@@ -2,9 +2,19 @@
 {
 	margin-top: 60px;
 	margin-bottom: 50px;
+	font-family: 'Roboto', sans-serif !important;
 }
 .dispatch
 {
 	margin-top: 30px;
 	text-align: center;
+	font-family: 'Roboto', sans-serif !important;
+}
+.head_text_2
+{
+	font-family: 'Roboto', sans-serif !important;
+}
+.head_text_1
+{
+		font-family: 'Roboto', sans-serif !important;
 }
