@@ -46,6 +46,10 @@
 	margin-right: -10px;
 	border: 0px;
 }
+.search__input::placeholder
+{
+	color: White;
+}
 .search
 {
 	display: block;

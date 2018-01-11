@@ -11,7 +11,7 @@
 }
 .dispatch__button
 {
-	margin-left: -130px;
+	margin-left: -135px;
 	background: transparent;
 	border: none;
 	position: relative;
@@ -53,10 +53,4 @@
 	font-size: 12px;
 	margin-top: 15px;
 	margin-bottom: 60px;
-}
-.dispatch__button:hover
-{
-	background: #71aaca;
-	width: 17%;
-	color: White;
 }
