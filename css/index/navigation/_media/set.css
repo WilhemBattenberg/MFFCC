@@ -97,6 +97,14 @@
 	{
 		margin-top: 15px;
 	}
+	.nav__link
+	{
+		font-weight: bold;
+	}
+	.nav__link_last
+	{
+		font-weight: bold;
+	}
 }
 
 @media (max-width: 986px) and (min-width: 768px) {
